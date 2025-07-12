@@ -1,0 +1,34 @@
+body{
+	background-image: url(http://cdn.wonderfulengineering.com/wp-content/uploads/2014/09/blue-wallpaper-6.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size:cover;
+}
+
+
+
+.navbar{
+	border:none;
+	border-radius:0;
+}
+
+.btn{
+	border:solid 3px white;
+}
+
+.container h1{
+	animation:2s blink linear infinite;
+}
+@keyframes blink
+{
+	0%{
+		opacity:1;
+	}
+	50%{
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+	}
+}
+

@@ -1,0 +1,33 @@
+body{
+	background-image: url(http://i.imgur.com/2P1u8ND.jpg);
+	background-attachment: fixed;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.container h2{
+	color:white;
+}
+
+.navbar{
+	border:none;
+	border-radius:0;
+}
+
+.card h3{
+	animation:2s blink linear infinite;
+}
+@keyframes blink{
+	0%{
+		opacity:1;
+	}
+	50%{
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+	}
+}

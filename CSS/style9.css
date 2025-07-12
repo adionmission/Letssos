@@ -1,0 +1,20 @@
+body{
+	background-image: url(http://i.imgur.com/2P1u8ND.jpg);
+	background-attachment: fixed;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.navbar{
+	border:none;
+	border-radius:0;
+}
+
+
+
+
+
+	

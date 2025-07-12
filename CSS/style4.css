@@ -1,0 +1,27 @@
+body{
+	background-image:url(http://i.imgur.com/2P1u8ND.jpg);
+	background-attachment: fixed;
+}
+
+.container h3{
+	color:white;
+}
+
+.container h1{
+	color:white;
+	animation:4s blink linear infinite;
+}
+@keyframes blink{
+	0%{
+		opacity:1;
+	}
+	50%{
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+	}
+}
+
+
+

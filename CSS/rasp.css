@@ -1,0 +1,27 @@
+.navbar{
+	border-radius:0;
+	
+}
+
+@keyframes move{
+	0%{
+		margin-top:0;
+	}
+	50%{
+		margin-bottom:10px;
+	}
+	100%{
+		margin-top:0;
+	}
+}
+
+.thumbnail{
+	border-radius:0;
+	background-color:#f2f2f2;
+	box-shadow:0 4px 8px 0 rgba(0,0,0,0.5);
+}
+
+.btn{
+	border:none;
+	border-radius:0;
+}

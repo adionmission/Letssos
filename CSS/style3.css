@@ -1,0 +1,91 @@
+body{
+	background-image:url(http://33.media.tumblr.com/a960ffe95511172323f5dea33d409f4d/tumblr_nal7apo3Cw1tk1fewo1_500.gif);
+	background-attachment: fixed;
+	background-size:100%;
+
+}
+
+.navbar{
+	border:none;
+	border-radius:0;
+	background-color:rgba(0,0,0,0.5);
+}
+
+
+.navbar li{
+	color:white;
+	transition:0.5s;
+}
+
+.navbar li:hover{
+	color:orange;
+}
+
+
+.container h5{
+	color:white;
+	font-size:30px;
+	animation:3s blink linear infinite;
+	
+}
+@keyframes blink
+{
+	0%{
+		opacity:1;
+	}
+	50%{
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+	}
+}
+
+
+.btn{
+	border:none;
+	border-radius:0;
+	height:45px;
+	text-decoration:none;
+	text-align:center;
+	color:#FFFFFF;
+	background-color:#f4511e;
+	font-size:20px;
+}
+
+.btn:hover{
+	border:solid 3px white;
+	transition:1s;
+	
+}
+
+
+.btn:hover span{
+	padding-right:75px;
+	transition:1s;
+	color:white;
+	border:solid 3px white;
+}
+
+
+	
+
+
+.container h1{
+	color:white;
+	margin-top:50px;
+}
+
+
+
+
+.center-block h2{
+	color:white;
+}
+
+
+
+
+
+
+	

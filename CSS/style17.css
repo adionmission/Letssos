@@ -1,0 +1,63 @@
+body{
+	background-image:url(http://www.desktopimages.org/pictures/2014/0718/1/orig_63479.jpg);
+	background-attachment:fixed;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.navbar{
+	border-radius:0;
+}
+
+
+
+.btn{
+	
+	width:150px;
+	height:150px;
+	border-radius:100px;
+	background-color:rgba(0,0,0,0);
+	font-size:17px;
+	border:solid 4px black;
+	text-shadow:0.3px 0.3px black;
+	transition:0.5s;
+}
+
+.btn:hover{
+	border:solid 4px blue;
+	box-shadow:1px 1px black;
+	color:blue;
+	animation:1.5s blink linear infinite;
+}
+@keyframes blink{
+	0%{
+		opacity:1.0;
+	}
+	50%{
+		opacity:0.0;
+	}
+	100%{
+		opacity:1.0;
+	}
+}
+
+.container p{
+	color:white;
+}
+
+.container h1{
+	color:#336b87;
+	animation:1.5s blinkk linear infinite;
+}
+@keyframes blinkk
+{
+	0%{
+		opacity:1;
+	}
+	50%{
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+	}
+}

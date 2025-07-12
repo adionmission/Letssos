@@ -1,0 +1,50 @@
+body{
+	background-image:url(http://webseasoning.com/wp-content/uploads/2016/07/cool-black-backgrounds-19.jpg);
+	background-attachment:fixed;
+	background-size:100%;
+}
+
+.navbar{
+	border:none;
+	border-radius:0;
+}
+
+.thumbnail{
+	border-radius:0;
+	border:none;
+	padding:0 0 15px 0;
+}
+
+.thumbnail p{
+	margin-top:25px;
+	color:#555;
+}
+
+.thumbnail h4{
+	margin-top:50px;
+}
+
+.btn{
+	padding:10px 20px;
+	background-color:#333;
+	color:white;
+	border:none;
+	border-radius:0;
+	transition:0.5s;
+}
+
+.btn:hover{
+	background-color:white;
+	color:#333;
+	border:solid 1px #333;
+}
+
+.jumbotron{
+	background-image:url(https://static.comicvine.com/uploads/original/11122/111220684/4516132-3966607031-black-.jpeg);
+}
+
+.collapse p{
+	color:white;
+	font-size:20px;
+	text-shadow:2px 2px solid black;
+}

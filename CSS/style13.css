@@ -1,0 +1,56 @@
+body{
+     background-image:url(http://cdn2.greatfon.com/uploads/picture/611/25611/interior-grey-white-line-road.jpg);
+	 background-repeat:no-repeat;
+	 background-size:cover;
+}
+
+body{
+	margin:0px;
+	padding:0px;
+}
+
+.navbar{
+	border:none;
+	border-radius:0;
+}
+
+
+.btn{
+	border:solid 2px white;
+	border-radius:0;
+	margin-top:-160px;
+	background-color:rgba(0,0,0,0);
+	color:white;
+}
+
+.btn:hover{
+	color:red;
+	border:solid 2px red;
+}
+
+.thumbnail{
+	border:none;
+	border-radius:0;
+	padding:0 0 15px 0;
+}
+
+.thumbnail p{
+	text-align:center;
+	margin-top:80px;
+}
+
+.col-sm-12{
+	background-color:#FFFFFF;
+	padding:30px;
+	font-size:20px;
+	
+}
+
+
+
+
+
+
+
+
+
